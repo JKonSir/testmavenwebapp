@@ -4,7 +4,7 @@ package servlets;
  * Created by gijoe on 09.03.2015.
  */
 import javax.xml.bind.annotation.XmlRootElement;
-//import javax.xml.bind.annotation.XmlType;
+import javax.xml.bind.annotation.XmlType;
 
 @XmlType(propOrder = { "arg1", "arg2", "arg3" }, name = "serverBean")
 @XmlRootElement
